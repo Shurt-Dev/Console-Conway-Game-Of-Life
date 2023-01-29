@@ -1,0 +1,15 @@
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\bin\Debug\net6.0\ConwayGameOfLife.exe
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\bin\Debug\net6.0\ConwayGameOfLife.deps.json
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\bin\Debug\net6.0\ConwayGameOfLife.runtimeconfig.json
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\bin\Debug\net6.0\ConwayGameOfLife.dll
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\bin\Debug\net6.0\ConwayGameOfLife.pdb
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.csproj.AssemblyReference.cache
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.AssemblyInfoInputs.cache
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.AssemblyInfo.cs
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.csproj.CoreCompileInputs.cache
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.dll
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\refint\ConwayGameOfLife.dll
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.pdb
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ConwayGameOfLife.genruntimeconfig.cache
+C:\Users\Shurturgal\source\repos\ConwayGameOfLife\obj\Debug\net6.0\ref\ConwayGameOfLife.dll
