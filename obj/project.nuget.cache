@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e7iXfaUrqeDdGN8UsrNBsDDOVJkdNqXMeYbbnFKpIIW8XRcMIK/Q6AKIFmdZlMw8IRtUQbNHQkP9Gd1nWlSkaA==",
+  "dgSpecHash": "ZTmm9Jw0BrdOedE7+mg1GrMUMqtbs0CbLA4gUuG1vOmMMM/Y3zmGiGhANXb9CF7/NSIdbHl+kMbziThVPlnL7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shurturgal\\source\\repos\\ConwayGameOfLife\\ConwayGameOfLife.csproj",
+  "projectFilePath": "C:\\Users\\aauneau\\source\\repos\\Console-Conway-Game-Of-Life\\ConwayGameOfLife.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

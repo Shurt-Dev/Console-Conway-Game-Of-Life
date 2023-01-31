@@ -8,23 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Shurturgal\\.nuget\\packages\\": {},
+    "C:\\Users\\aauneau\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Shurturgal\\source\\repos\\ConwayGameOfLife\\ConwayGameOfLife.csproj",
+      "projectUniqueName": "C:\\Users\\aauneau\\source\\repos\\Console-Conway-Game-Of-Life\\ConwayGameOfLife.csproj",
       "projectName": "ConwayGameOfLife",
-      "projectPath": "C:\\Users\\Shurturgal\\source\\repos\\ConwayGameOfLife\\ConwayGameOfLife.csproj",
-      "packagesPath": "C:\\Users\\Shurturgal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Shurturgal\\source\\repos\\ConwayGameOfLife\\obj\\",
+      "projectPath": "C:\\Users\\aauneau\\source\\repos\\Console-Conway-Game-Of-Life\\ConwayGameOfLife.csproj",
+      "packagesPath": "C:\\Users\\aauneau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aauneau\\source\\repos\\Console-Conway-Game-Of-Life\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Shurturgal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aauneau\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

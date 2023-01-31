@@ -8,9 +8,9 @@ namespace ConwayGameOfLife
     {
         static void Main(string[] args)
         {
-            bool[,] world = new bool[6, 6];
+            bool[,] world = new bool[50, 50];
 
-            bool[,] buffer = world;
+            bool[,] buffer = new bool[50, 50];
 
             void Place(int x, int y)
             {
@@ -61,22 +61,22 @@ namespace ConwayGameOfLife
 
                 try
                 {
-                    countAlive += world[x - 1, y - 1] == true? 1 : 0; 
-                    Console.Write(countAlive);
+                    countAlive += world[x - 1, y - 1] == true ? 1 : 0;
+                    //Console.Write(countAlive);
                     countAlive += world[x - 1, y] == true ? 1 : 0;
-                    Console.Write(countAlive);
+                    //Console.Write(countAlive);
                     countAlive += world[x - 1, y + 1] == true ? 1 : 0;
-                    Console.Write(countAlive);
+                    //Console.Write(countAlive);
                     countAlive += world[x, y - 1] == true ? 1 : 0;
-                    Console.Write(countAlive);
+                    //Console.Write(countAlive);
                     countAlive += world[x, y + 1] == true ? 1 : 0;
-                    Console.Write(countAlive);
+                    //Console.Write(countAlive);
                     countAlive += world[x + 1, y - 1] == true ? 1 : 0;
-                    Console.Write(countAlive);
+                    //Console.Write(countAlive);
                     countAlive += world[x + 1, y] == true ? 1 : 0;
-                    Console.Write(countAlive);
+                    //Console.Write(countAlive);
                     countAlive += world[x + 1, y + 1] == true ? 1 : 0;
-                    Console.WriteLine(countAlive);
+                    //Console.WriteLine(countAlive);
                 }
                 catch (IndexOutOfRangeException)
                 {
@@ -110,11 +110,18 @@ namespace ConwayGameOfLife
                         buffer[j, i] = WillBeAlive(j, i);
                     }
                 }
-                world = buffer;
+                for (int i = 0; i < world.GetLength(1); ++i)
+                {
+                    for (int j = 0; j < world.GetLength(0); ++j)
+                    {
+                        world[j,i] = buffer[j,i];
+                    }
+                }
             }
 
             void WorldPrint()
             {
+                Console.ForegroundColor = ConsoleColor.Black;
                 for (int i = 0; i < world.GetLength(1) - 1; ++i)
                 {
                     for (int j = 0; j < world.GetLength(0) - 1; ++j)
@@ -122,28 +129,32 @@ namespace ConwayGameOfLife
                         if (world[j, i] == true)
                         {
                             Console.BackgroundColor = ConsoleColor.White;
-                            Console.Write("1");
+                            Console.Write(" ");
                         }
                         else
                         {
                             Console.BackgroundColor = ConsoleColor.Black;
-                            Console.Write("0");
+                            Console.Write(" ");
                         }
                     }
+                    Console.BackgroundColor = ConsoleColor.Black;
                     Console.WriteLine();
                 }
+                Console.BackgroundColor = ConsoleColor.Black;
                 Console.WriteLine();
             }
-            //   01234
-            //
+                          //   01234
+                          //
             Place(1, 3);  //0  00000
             Place(2, 1);  //1  00100 
             Place(2, 3);  //2  00010
             Place(3, 3);  //3  01110
             Place(3, 2);  //4  00000
+            Console.SetWindowSize(200, 63);
 
-            for (int i = 0; i < 2; ++i)
+            for (int i = 0; i < 200; ++i)
             {
+                Console.Clear();
                 WorldPrint();
                 WorldTest();
             }
